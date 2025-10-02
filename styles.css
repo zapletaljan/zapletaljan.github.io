@@ -7,7 +7,7 @@ body {
 
 .container {
     max-width: 1000px;
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     border-radius: 10px;
     margin: 50px auto 50px auto;
     padding: 5px 30px;
@@ -16,7 +16,8 @@ body {
 
 .container2 {
     max-width: 300px;
-    background-color: white;
+    background-color: rgb(175, 175, 175);
+    color: rgb(0, 0, 0);
     border-radius: 30px;
     margin: 50px auto 50px auto;
     padding: 5px 30px;
@@ -33,4 +34,15 @@ img {
     font-weight: bold;
     font-size: 50px;
     text-align: center;
+}
+
+.ul {
+    display: flex;
+    border: solid 2px green;
+    border-radius: 25px;
+    justify-content: space-evenly;
+    list-style: none;
+    margin: 0px;
+    padding: 20px;
+    height: 200px
 }
