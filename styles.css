@@ -1,5 +1,5 @@
 body {
-    background-color: gray;
+    background-color: rgb(150, 123, 123);
     color: black;
     font-family: Arial, sans-serif;
 
@@ -7,26 +7,27 @@ body {
 
 .container {
     max-width: 1000px;
-    background-color: rgb(255, 255, 255);
+    background-color: #d3b8b8;
     border-radius: 10px;
     margin: 50px auto 50px auto;
     padding: 5px 30px;
-    box-shadow: rgb(rgb(0, 0, 0), rgb(0, 0, 0), rgb(0, 0, 0));
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
 }
 
 .container2 {
     max-width: 300px;
-    background-color: rgb(175, 175, 175);
+    background-color: #d3b8b8;
     color: rgb(0, 0, 0);
     border-radius: 30px;
     margin: 50px auto 50px auto;
     padding: 5px 30px;
-    box-shadow: rgb(rgb(0, 0, 0), rgb(0, 0, 0), rgb(0, 0, 0));
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
 }
 
 img {
-    border: 2px solid;
+    border: 3px solid;
     border-radius: 20px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
 }
 
 .nadpis {
@@ -36,13 +37,38 @@ img {
     text-align: center;
 }
 
-.ul {
-    display: flex;
-    border: solid 2px green;
-    border-radius: 25px;
-    justify-content: space-evenly;
+#ul {
     list-style: none;
-    margin: 0px;
-    padding: 20px;
-    height: 200px
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    display: flex;
+}
+
+#ul a {
+    text-decoration: none;
+    color: white;
+    background-color: #4b4545;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-weight: bold;
+    margin: 10px 8px;
+    display: flex;
+    justify-content: space-evenly;
+}
+#ul a:hover {
+    background-color: #7a6e6e;
+    color: white;
+}
+
+#navbar {
+    border-radius: 20px;
+    background-color: #d3b8b8;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 16px;
+    font-size: 24px;
+    font-weight: bold;
 }
