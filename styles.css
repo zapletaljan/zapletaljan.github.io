@@ -1,13 +1,14 @@
 body {
-    background-color: rgb(150, 123, 123);
+    background-color: rgb(79, 79, 79);
     color: black;
     font-family: Arial, sans-serif;
 
 }
 
 .container {
+    color: white;
     max-width: 1000px;
-    background-color: #d3b8b8;
+    background-color: #282828;
     border-radius: 10px;
     margin: 50px auto 50px auto;
     padding: 5px 30px;
@@ -16,8 +17,8 @@ body {
 
 .container2 {
     max-width: 300px;
-    background-color: #d3b8b8;
-    color: rgb(0, 0, 0);
+    background-color: #282828;
+    color: rgb(255, 255, 255);
     border-radius: 30px;
     margin: 50px auto 50px auto;
     padding: 5px 30px;
@@ -27,11 +28,12 @@ body {
 img {
     border: 3px solid;
     border-radius: 20px;
+    border-color: white;
     box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
 }
 
 .nadpis {
-    color: rgb(39, 39, 39);
+    color: rgb(255, 221, 2);
     font-weight: bold;
     font-size: 50px;
     text-align: center;
@@ -56,19 +58,46 @@ img {
     display: flex;
     justify-content: space-evenly;
 }
+
 #ul a:hover {
-    background-color: #7a6e6e;
-    color: white;
+    background-color: #4b4545;
+    color: rgb(220, 179, 15);
 }
 
 #navbar {
-    border-radius: 20px;
-    background-color: #d3b8b8;
     color: white;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
-    padding: 16px;
-    font-size: 24px;
+    font-size: 32px;
     font-weight: bold;
+    margin: auto;
+}
+
+header {
+    border-radius: 15px;
+    background-color: #282828;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: auto;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 500px) {
+    nav a {
+        font-size: 0;
+    }
+
+    nav a i {
+        font-size: 20px;
+    }
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: none;
+
 }
