@@ -80,8 +80,7 @@ header {
     color: white;
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    padding: auto;
+    align-items: center;    
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
 }
 
@@ -98,6 +97,5 @@ header {
 footer {
     text-align: center;
     padding: 10px;
-    background-color: none;
 
 }
