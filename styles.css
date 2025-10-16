@@ -1,0 +1,14 @@
+#navbar {
+    background-color: rgb(76, 70, 70);
+    display: flex;
+    margin: -10px -10px -10px -10px;
+    justify-content: space-evenly;
+}
+
+#header {
+    color: white;
+}
+
+#text {
+    margin: 10px 10px 10px 10px;
+}
