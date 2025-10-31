@@ -3,6 +3,7 @@ body {
     margin: 0;
     padding: 0;
 }
+
 #navbar {
     background-color: #333333;
     display: flex;
@@ -77,12 +78,13 @@ a.btn {
     height: 20px;
     text-decoration: none;
     color: rgb(236, 244, 255);
+    transition: all 0.3s ease;
 
 }
 
 a.btn:hover {
-    border-radius: 3px;
-    box-shadow: #333333 0px 0px 3px;
+    background-color: rgb(0, 194, 253);
+    transition: all 0.3s ease;
 }
 
 i {
@@ -93,5 +95,6 @@ i {
 
 footer {
     display: flex;
-    justify-self:  center;
+    justify-self: center;
+    margin-top: 260px;
 }
