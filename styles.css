@@ -1,15 +1,38 @@
 body {
-    background-color: #3a3a3a;
+    background-image: linear-gradient(to bottom, #4e70af, #2a5298);
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
 }
 
 #navbar {
+    margin: 0 auto;
+    align-items: center;
     background-color: #202020;
     display: flex;
-    margin: -10px 0px -10px -10px;
-    justify-content: space-around;
+    margin: 0;
+    justify-content: space-between;
+    padding: 5px 20px;
     box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+}
+.btn2 {
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    border-bottom: solid 2px rgb(255, 255, 255);
+    padding: 5px 5px 5px 5px;
+    display: inline-block;
+    height: 20px;
+    text-decoration: none;
+    color: rgb(236, 244, 255);
+    transition: all 0.3s ease;
+}
+.btn2:hover {
+    border-bottom: solid 2px rgb(0, 194, 253);
+    transition: all 0.3s ease;
+    transform: scale(1.05);
+}
+#navbar i {
+    color: rgb(255, 255, 255);
 }
 
 #header {
@@ -19,43 +42,35 @@ body {
 .container_controls {
     display: flex;
     justify-content: space-evenly;
-    margin: 30px 150px;
 
 }
 
 .container {
-    border-style: solid;
-    border-color: rgb(0, 0, 0);
-    border-width: 4px;
+    color:white;
+    text-shadow: #202020 1px 1px 2px, #202020 0 0 1em, #202020 0 0 0.2em;
+    margin: 0 auto;
     display: block;
-    justify-self: center;
-    justify-content: center;
-    margin: 70px 40px 20px 50px;
-    background-color: #FCFAF9;
-    padding: 20px 20px 20px 20px;
-    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
-    border-radius: 10px;
-    width: 600px;
+    padding: 10px 20px 10px 60px;
+    height: 120px;
+    width: 100%;
 }
 
 .container2 {
     display: block;
-    justify-self: center;
-    justify-content: center;
+    margin: 5px 5px 5px 5px;
+    border-radius: 5px;
     border-style: solid;
-    border-color: rgb(0, 132, 255);
     border-width: 4px;
+    border-color: transparent;
     background-color: #FCFAF9;
-    margin-left: 20px;
     padding: 20px 20px 20px 20px;
     box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
-    border-radius: 10px;
-    width: 600px;
+    width: 20%;
     transition: all 0.3s ease;
 }
 
 .container2:hover {
-    border-color: rgb(0, 194, 253);
+    transform: scale(1.03);
     transition: all 0.3s ease;
 
 }
@@ -76,7 +91,7 @@ a.btn {
     background-color: rgb(44, 113, 216);
     border-radius: 2px;
     padding: 5px 5px 5px 5px;
-    width: 50px;
+    display: inline-block;
     height: 20px;
     text-decoration: none;
     color: rgb(236, 244, 255);
@@ -85,7 +100,7 @@ a.btn {
 }
 
 a.btn:hover {
-    background-color: rgb(0, 194, 253);
+    background-color: rgb(8, 115, 165);
     transition: all 0.3s ease;
 }
 
@@ -98,5 +113,9 @@ i {
 footer {
     display: flex;
     justify-self: center;
-    margin-top: 260px;
+    margin-top: 250px;
+}
+.projects {
+    margin: 0 auto;
+    padding: 20px 0 40px 0;
 }
