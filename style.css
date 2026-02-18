@@ -132,3 +132,9 @@ nav {
     display: inline-flex;
 
 }
+@media (max-width: 1300px) {
+    .wrapper {
+        width: 100%;
+        display: block;
+    }
+}
