@@ -7,6 +7,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const kamenButton = document.getElementById("kamen");
     const golButton = document.getElementById("gol");
     const jokeButton = document.getElementById("joke");
+    const airsoftButton = document.getElementById("airsoft");
     kutilButton.addEventListener("click", function () {
         window.location.href = "https://zapletaljan.github.io/html/index.html";
     });
@@ -30,5 +31,8 @@ document.addEventListener("DOMContentLoaded", function () {
     });
     jokeButton.addEventListener("click", function () {
         window.location.href = "https://zapletaljan.github.io/Joke-API/";
+    });
+    airsoftButton.addEventListener("click", function () {
+        window.location.href = "https://janzapletal23.eu.pythonanywhere.com/domu/";
     });
 });
