@@ -133,12 +133,14 @@ nav {
     display: inline-flex;
 
 }
+
 @media (max-width: 576px) {
     .wrapper {
         width: 100%;
         display: block;
     }
 }
+
 @media (max-width: 1500px) {
     .wrapper {
         width: 100%;
